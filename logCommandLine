@@ -1,0 +1,1017 @@
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> " Hello " + bob + " how is " + bob " doing?";
+SyntaxError: Unexpected string
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> bob = "Good bye"
+'Good bye'
+> " Hello " + bob + " how is " + bob " doing?";
+SyntaxError: Unexpected string
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> " Hello " + bob + " how is " + bob " doing?"
+SyntaxError: Unexpected string
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> " Hello " + bob + " how is " + bob " doing?"
+SyntaxError: Unexpected string
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+>
+>
+>
+>
+> bob = "Good bye"
+'Good bye'
+> var bob = "Good bye"
+undefined
+> bob = "Good bye"
+'Good bye'
+> " Hello " + bob + " how is " + bob " doing?"
+SyntaxError: Unexpected string
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> " Hello " + bob + " how is " + bob + " doing?"
+' Hello Good bye how is Good bye doing?'
+> var age =21
+undefined
+> age
+21
+> age / 7 * 1- %6
+... age / 7 * 10 %6
+...
+...
+>
+>
+> var jim
+undefined
+> john = "jkadjfl;aj"
+'jkadjfl;aj'
+>
+> var jon
+undefined
+> jon
+undefined
+> jon + 5
+NaN
+> phil + 5
+ReferenceError: phil is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> vat hew
+SyntaxError: Unexpected identifier
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> var hew
+undefined
+> hew
+undefined
+> hew + 4
+NaN
+>
+>
+>
+> console.log("this is a test");
+this is a test
+undefined
+> console.log("this is a test")
+this is a test
+undefined
+>
+> jhklhjkl
+ReferenceError: jhklhjkl is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+> jhlhj
+ReferenceError: jhlhj is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> hjkl
+ReferenceError: hjkl is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+(To exit, press ^C again or type .exit)
+>
+daniels-mbp-2:day2 danielkline$ node
+> john
+ReferenceError: john is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+(To exit, press ^C again or type .exit)
+> pwd
+ReferenceError: pwd is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> ls
+ReferenceError: ls is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+(To exit, press ^C again or type .exit)
+>
+daniels-mbp-2:day2 danielkline$ pwd
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/day2
+daniels-mbp-2:day2 danielkline$ cd ..
+daniels-mbp-2:projects danielkline$ mv day2 week2
+daniels-mbp-2:projects danielkline$ ls
+2017-okcoders-day-1		2017-okcoders-day-1-heroku-v2	2017-okcoders-day-1-study-group
+2017-okcoders-day-1-heroku	2017-okcoders-day-1-redux	week2
+daniels-mbp-2:projects danielkline$ cd week2/
+daniels-mbp-2:week2 danielkline$ echo "Day Two Stuff" > README.md
+daniels-mbp-2:week2 danielkline$ ls
+README.md
+daniels-mbp-2:week2 danielkline$ git status
+fatal: Not a git repository (or any of the parent directories): .git
+daniels-mbp-2:week2 danielkline$ pwd
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2
+daniels-mbp-2:week2 danielkline$ git remote add origin https://github.com/DanielWebDev/ok-coders-backend-week2.git
+fatal: Not a git repository (or any of the parent directories): .git
+daniels-mbp-2:week2 danielkline$ git push -u origin master
+fatal: Not a git repository (or any of the parent directories): .git
+daniels-mbp-2:week2 danielkline$ ls
+README.md
+daniels-mbp-2:week2 danielkline$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (week2)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository:
+keywords:
+author:
+license: (ISC)
+About to write to /Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/package.json:
+
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "Day Two Stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes)
+daniels-mbp-2:week2 danielkline$ git remote add origin https://github.com/DanielWebDev/ok-coders-backend-week2.git
+fatal: Not a git repository (or any of the parent directories): .git
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ git remote add origin https://github.com/DanielWebDev/ok-coders-backend-week2.git
+fatal: Not a git repository (or any of the parent directories): .git
+daniels-mbp-2:week2 danielkline$ git init
+Initialized empty Git repository in /Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/.git/
+daniels-mbp-2:week2 danielkline$ git remote add origin https://github.com/DanielWebDev/ok-coders-backend-week2.git
+daniels-mbp-2:week2 danielkline$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/DanielWebDev/ok-coders-backend-week2.git'
+daniels-mbp-2:week2 danielkline$ sublime index.js
+-bash: sublime: command not found
+daniels-mbp-2:week2 danielkline$ git init
+Reinitialized existing Git repository in /Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/.git/
+daniels-mbp-2:week2 danielkline$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+	package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+daniels-mbp-2:week2 danielkline$ git commit -m "initial commit"
+On branch master
+
+Initial commit
+
+Untracked files:
+	README.md
+	package.json
+
+nothing added to commit but untracked files present
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ pwd
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2
+daniels-mbp-2:week2 danielkline$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	README.md
+	package.json
+
+nothing added to commit but untracked files present (use "git add" to track)
+daniels-mbp-2:week2 danielkline$ git add .
+daniels-mbp-2:week2 danielkline$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   README.md
+	new file:   package.json
+
+daniels-mbp-2:week2 danielkline$ git commit -m "initial commit"
+[master (root-commit) d2766f2] initial commit
+ 2 files changed, 12 insertions(+)
+ create mode 100644 README.md
+ create mode 100644 package.json
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ git status
+On branch master
+nothing to commit, working directory clean
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ ls
+README.md	index.js	package.json
+daniels-mbp-2:week2 danielkline$ rm package.json
+daniels-mbp-2:week2 danielkline$ ls
+README.md	index.js
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node
+> index.js
+ReferenceError: index is not defined
+    at repl:1:1
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> node index.js
+SyntaxError: Unexpected identifier
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+>
+(To exit, press ^C again or type .exit)
+> node index.js
+>
+(To exit, press ^C again or type .exit)
+>
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+... and I can have a beer in 13 years
+daniels-mbp-2:week2 danielkline$ node index.js
+... and I can have a beer in 13 years
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+... and I can have a beer in 13 years
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+... and I can have a beer in 13 years
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+leave me alone I am drinking
+daniels-mbp-2:week2 danielkline$ node index.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/index.js:13
+} if else (age === 21) {
+     ^^^^
+
+SyntaxError: Unexpected token else
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+yeah ... celebrate
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ pwd
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2
+daniels-mbp-2:week2 danielkline$ cd ..
+daniels-mbp-2:projects danielkline$ ls
+2017-okcoders-day-1		2017-okcoders-day-1-heroku-v2	2017-okcoders-day-1-study-group
+2017-okcoders-day-1-heroku	2017-okcoders-day-1-redux	week2
+daniels-mbp-2:projects danielkline$ mkdir week3
+daniels-mbp-2:projects danielkline$ echo "this is the beginning" > README.md
+daniels-mbp-2:projects danielkline$ ls
+2017-okcoders-day-1		2017-okcoders-day-1-heroku-v2	2017-okcoders-day-1-study-group	week2
+2017-okcoders-day-1-heroku	2017-okcoders-day-1-redux	README.md			week3
+daniels-mbp-2:projects danielkline$ cat README.md
+this is the beginning
+daniels-mbp-2:projects danielkline$ rm README.md
+daniels-mbp-2:projects danielkline$ ls
+2017-okcoders-day-1		2017-okcoders-day-1-heroku-v2	2017-okcoders-day-1-study-group	week3
+2017-okcoders-day-1-heroku	2017-okcoders-day-1-redux	week2
+daniels-mbp-2:projects danielkline$ cd week2
+daniels-mbp-2:week2 danielkline$ ls
+README.md	index.js
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+yeah ... celebrate
+daniels-mbp-2:week2 danielkline$ git commit -a -m "Princess is drinking"
+[master 6963e4b] Princess is drinking
+ 1 file changed, 11 deletions(-)
+ delete mode 100644 package.json
+daniels-mbp-2:week2 danielkline$ ls
+README.md	index.js
+daniels-mbp-2:week2 danielkline$ ls -la
+total 16
+drwxr-xr-x   5 danielkline  staff  170 Apr  1 10:11 .
+drwxr-xr-x  10 danielkline  staff  340 Apr  1 10:37 ..
+drwxr-xr-x  13 danielkline  staff  442 Apr  1 10:38 .git
+-rw-r--r--   1 danielkline  staff   14 Apr  1 10:02 README.md
+-rw-r--r--   1 danielkline  staff  418 Apr  1 10:33 index.js
+daniels-mbp-2:week2 danielkline$ got log
+-bash: got: command not found
+daniels-mbp-2:week2 danielkline$ git log
+commit 6963e4b2aaf52167bb2710f2307eb2b976294f2e
+Author: Daniel <danielkline19@hotmail.com>
+Date:   Sat Apr 1 10:38:14 2017 -0500
+
+    Princess is drinking
+
+commit d2766f2e3a5d5174313b1985cfaf27d9d93d7335
+Author: Daniel <danielkline19@hotmail.com>
+Date:   Sat Apr 1 10:07:28 2017 -0500
+
+    initial commit
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ pwd
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 21
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+In 2 I will be 10
+In 3 I will be 11
+In 4 I will be 12
+In 5 I will be 13
+In 6 I will be 14
+In 7 I will be 15
+In 8 I will be 16
+In 9 I will be 17
+In 10 I will be 18
+In 11 I will be 19
+In 12 I will be 20
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/index.js:15
+		console.log("... and I can have a beer in " + drinkingAge + " years");
+		                                              ^
+
+ReferenceError: drinkingAge is not defined
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/index.js:15:49)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+... and I can have a beer in 12 years
+In 2 I will be 10
+... and I can have a beer in 11 years
+In 3 I will be 11
+... and I can have a beer in 10 years
+In 4 I will be 12
+... and I can have a beer in 9 years
+In 5 I will be 13
+... and I can have a beer in 8 years
+In 6 I will be 14
+... and I can have a beer in 7 years
+In 7 I will be 15
+... and I can have a beer in 6 years
+In 8 I will be 16
+... and I can have a beer in 5 years
+In 9 I will be 17
+... and I can have a beer in 4 years
+In 10 I will be 18
+... and I can have a beer in 3 years
+In 11 I will be 19
+... and I can have a beer in 2 years
+In 12 I will be 20
+... and I can have a beer in 1 years
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+... and I can have a beer in 12 years
+In 2 I will be 10
+... and I can have a beer in 11 years
+In 3 I will be 11
+... and I can have a beer in 10 years
+In 4 I will be 12
+... and I can have a beer in 9 years
+In 5 I will be 13
+... and I can have a beer in 8 years
+In 6 I will be 14
+... and I can have a beer in 7 years
+In 7 I will be 15
+... and I can have a beer in 6 years
+In 8 I will be 16
+... and I can have a beer in 5 years
+In 9 I will be 17
+... and I can have a beer in 4 years
+In 10 I will be 18
+... and I can have a beer in 3 years
+In 11 I will be 19
+... and I can have a beer in 2 years
+In 12 I will be 20
+... and I can have a beer in 1 years
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+... and I can have a beer in 12 years
+In 2 I will be 10
+... and I can have a beer in 11 years
+In 3 I will be 11
+... and I can have a beer in 10 years
+In 4 I will be 12
+... and I can have a beer in 9 years
+In 5 I will be 13
+... and I can have a beer in 8 years
+In 6 I will be 14
+... and I can have a beer in 7 years
+In 7 I will be 15
+... and I can have a beer in 6 years
+In 8 I will be 16
+... and I can have a beer in 5 years
+In 9 I will be 17
+... and I can have a beer in 4 years
+In 10 I will be 18
+... and I can have a beer in 3 years
+In 11 I will be 19
+... and I can have a beer in 2 years
+In 12 I will be 20
+... and I can have a beer in 1 years
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+... and I can have a beer in 12 years
+In 2 I will be 10
+... and I can have a beer in 11 years
+In 3 I will be 11
+... and I can have a beer in 10 years
+In 4 I will be 12
+... and I can have a beer in 9 years
+In 5 I will be 13
+... and I can have a beer in 8 years
+In 6 I will be 14
+... and I can have a beer in 7 years
+In 7 I will be 15
+... and I can have a beer in 6 years
+In 8 I will be 16
+... and I can have a beer in 5 years
+In 9 I will be 17
+... and I can have a beer in 4 years
+In 10 I will be 18
+... and I can have a beer in 3 years
+In 11 I will be 19
+... and I can have a beer in 2 years
+In 12 I will be 20
+... and I can have a beer in 1 years
+In 13 I will be 21
+leave me alone I am drinking
+daniels-mbp-2:week2 danielkline$ node index.js
+My name is Princess Brunhida con Nay Nay III and I am age 8
+In 1 I will be 9
+... and beer in 12 years
+In 2 I will be 10
+... and beer in 11 years
+In 3 I will be 11
+... and beer in 10 years
+In 4 I will be 12
+... and beer in 9 years
+In 5 I will be 13
+... and beer in 8 years
+In 6 I will be 14
+... and beer in 7 years
+In 7 I will be 15
+... and beer in 6 years
+In 8 I will be 16
+... and beer in 5 years
+In 9 I will be 17
+... and beer in 4 years
+In 10 I will be 18
+... and beer in 3 years
+In 11 I will be 19
+... and beer in 2 years
+In 12 I will be 20
+... and beer in 1 years
+In 13 I will be 21
+leave me alone I am drinking
+daniels-mbp-2:week2 danielkline$ ls
+README.md						var name = "Princess Brunhida con Nay Nay III";.js
+index.js
+daniels-mbp-2:week2 danielkline$ rm var\ name\ \=\ \"Princess\ Brunhida\ con\ Nay\ Nay\ III\"\;.js
+daniels-mbp-2:week2 danielkline$ ls
+README.md	index.js
+daniels-mbp-2:week2 danielkline$ var bob = "one
+> "
+-bash: var: command not found
+daniels-mbp-2:week2 danielkline$ var bob = "one"
+-bash: var: command not found
+daniels-mbp-2:week2 danielkline$ var myList = [];
+-bash: var: command not found
+daniels-mbp-2:week2 danielkline$ var myList = []
+-bash: var: command not found
+daniels-mbp-2:week2 danielkline$ var myList
+-bash: var: command not found
+daniels-mbp-2:week2 danielkline$ ls
+README.md	arrays.js	index.js
+daniels-mbp-2:week2 danielkline$ node
+> var myList = [];
+undefined
+> myList = ["one","two","three",4];
+[ 'one', 'two', 'three', 4 ]
+> myList[1]
+'two'
+> for (var x=0; x<=100;x++){myList[x]="beers on the wall";}
+'beers on the wall'
+> myList
+[ 'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall',
+  'beers on the wall' ]
+>
+> for(var y=21; y<65; y++){console.log(myLsit[y]);}
+ReferenceError: myLsit is not defined
+    at repl:1:38
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> for(var y=21; y<65; y++){console.log(myList[y]);}
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+beers on the wall
+undefined
+>
+> ar newList =[];
+SyntaxError: Unexpected identifier
+    at Object.exports.createScript (vm.js:24:10)
+    at REPLServer.defaultEval (repl.js:233:25)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> var newList =[];
+undefined
+> new
+new
+
+newList
+
+> newList.push("My first thing");
+1
+> new
+...
+...
+> newList.pusj(2);
+TypeError: newList.pusj is not a function
+    at repl:1:9
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> newList.pusj(2)
+TypeError: newList.pusj is not a function
+    at repl:1:9
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> newList.push(2)
+2
+> newList.push("something borrowed")
+3
+> newList
+[ 'My first thing', 2, 'something borrowed' ]
+> newList.pop()
+'something borrowed'
+> newList
+[ 'My first thing', 2 ]
+> newList.length
+2
+> newList[3]="Wait... I skipped something"
+'Wait... I skipped something'
+> new
+new
+
+newList
+
+> newList
+[ 'My first thing', 2, , 'Wait... I skipped something' ]
+> newList[2]
+undefined
+>
+> newList
+[ 'My first thing', 2, , 'Wait... I skipped something' ]
+> newList.
+...
+...
+...
+> newNewList = [ "bone", "dog", "Dig"];
+[ 'bone', 'dog', 'Dig' ]
+> var newNewList = [ "bone", "dog", "Dig"];
+undefined
+> newNewList.
+newNewList.__defineGetter__      newNewList.__defineSetter__      newNewList.__lookupGetter__      newNewList.__lookupSetter__
+newNewList.__proto__             newNewList.constructor           newNewList.hasOwnProperty        newNewList.isPrototypeOf
+newNewList.propertyIsEnumerable  newNewList.toLocaleString        newNewList.toString              newNewList.valueOf
+
+newNewList.concat                newNewList.copyWithin            newNewList.entries               newNewList.every
+newNewList.fill                  newNewList.filter                newNewList.find                  newNewList.findIndex
+newNewList.forEach               newNewList.indexOf               newNewList.join                  newNewList.keys
+newNewList.lastIndexOf           newNewList.length                newNewList.map                   newNewList.pop
+newNewList.push                  newNewList.reduce                newNewList.reduceRight           newNewList.reverse
+newNewList.shift                 newNewList.slice                 newNewList.some                  newNewList.sort
+newNewList.splice                newNewList.unshift
+
+> var array2=[]
+undefined
+> newNewList
+[ 'bone', 'dog', 'Dig' ]
+> newNewList[1]
+'dog'
+> array2
+[]
+> array2[0] = newNewList
+[ 'bone', 'dog', 'Dig' ]
+> array2[1]=[1,2,3]
+[ 1, 2, 3 ]
+> array2[2]=["One","two","three"]
+[ 'One', 'two', 'three' ]
+> array2
+[ [ 'bone', 'dog', 'Dig' ],
+  [ 1, 2, 3 ],
+  [ 'One', 'two', 'three' ] ]
+>
+>
+> array2[1][1]
+2
+>
+>
+> gridArray = [ [1,2,3,4,5,6,], [2,3,4,5,6,7,],[3,4,5,6,7,8]];
+[ [ 1, 2, 3, 4, 5, 6 ],
+  [ 2, 3, 4, 5, 6, 7 ],
+  [ 3, 4, 5, 6, 7, 8 ] ]
+>
+>
+> // now doing objects
+undefined
+>
+>
+>
+> var bob={};
+undefined
+>
+> bob={time:"12:01",date:"4/1/2017"}
+{ time: '12:01', date: '4/1/2017' }
+> bob[time]
+ReferenceError: time is not defined
+    at repl:1:5
+    at REPLServer.defaultEval (repl.js:269:27)
+    at bound (domain.js:287:14)
+    at REPLServer.runBound [as eval] (domain.js:300:12)
+    at REPLServer.<anonymous> (repl.js:439:12)
+    at emitOne (events.js:95:20)
+    at REPLServer.emit (events.js:182:7)
+    at REPLServer.Interface._onLine (readline.js:211:10)
+    at REPLServer.Interface._line (readline.js:550:8)
+    at REPLServer.Interface._ttyWrite (readline.js:827:14)
+> bob['time']
+'12:01'
+>
+> bob.time
+'12:01'
+> bob={time:"12:01",date:"4/1/2017"}
