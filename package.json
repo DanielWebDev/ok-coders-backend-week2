@@ -10,10 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/DanielWebDev/ok-coders-backend-week2.git"
   },
-  "author": "",
+  "author": "Daniel Kline",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/DanielWebDev/ok-coders-backend-week2/issues"
   },
-  "homepage": "https://github.com/DanielWebDev/ok-coders-backend-week2#readme"
+  "homepage": "https://github.com/DanielWebDev/ok-coders-backend-week2#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": [
+    "class",
+    "exercises",
+    "homework"
+  ]
 }

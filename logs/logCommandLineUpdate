@@ -1,0 +1,369 @@
+Last login: Sat Apr  1 08:37:35 on ttys000
+daniels-mbp-2:~ danielkline$ cd ~/Documents/ok_coders/ok_coders_backend/projects/week2/
+daniels-mbp-2:week2 danielkline$ ls
+README.md	arrays.js	index.js	logCommandLine
+daniels-mbp-2:week2 danielkline$ mv arrays.js example.js
+daniels-mbp-2:week2 danielkline$ ls
+README.md	example.js	index.js	logCommandLine
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Second function
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:9
+vat result = MyFirstFunction();
+    ^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Second function
+Second
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Second function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Second function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Second function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:8
+	return MyFirstValue;
+	       ^
+
+ReferenceError: MyFirstValue is not defined
+    at MyFirstFunction (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:8:9)
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11:1)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:8
+	return MyReturnValue;
+	       ^
+
+ReferenceError: MyReturnValue is not defined
+    at MyFirstFunction (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:8:9)
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11:1)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11
+myFirstFunction();
+^
+
+ReferenceError: myFirstFunction is not defined
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11:1)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:12
+myFirstFunction("First");
+^
+
+ReferenceError: myFirstFunction is not defined
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:12:1)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my First function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my First function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my First function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my First function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my First function
+Second
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Not First function
+Second
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:22
+myFunction.first(counter());
+                 ^
+
+ReferenceError: counter is not defined
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:22:18)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:3
+myFunction.count = {};
+^
+
+ReferenceError: myFunction is not defined
+    at Object.<anonymous> (/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:3:1)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:3
+	count = 1;
+	         ^
+
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:3
+	count : 1;
+	         ^
+
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11
+	counter : function() {
+	^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11
+	counter : function() {
+	^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11
+	counter : function() {
+	^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:11
+	counter : function() {
+	^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:18
+	};
+	 ^
+
+SyntaxError: Unexpected token ;
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+/Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/example.js:21
+	myFunction.first(myFunction.counter());
+	^^^^^^^^^^
+
+SyntaxError: Unexpected identifier
+    at exports.runInThisContext (vm.js:53:16)
+    at Module._compile (module.js:387:25)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+    at Function.Module.runMain (module.js:447:10)
+    at startup (node.js:146:18)
+    at node.js:404:3
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Not First function
+Second
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ node example.js
+this is my First function
+this is my Not First function
+Second
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$
+daniels-mbp-2:week2 danielkline$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg> --save` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+name: (week2)
+version: (1.0.0)
+description:
+entry point: (index.js)
+test command:
+git repository: (https://github.com/DanielWebDev/ok-coders-backend-week2.git)
+keywords:
+author:
+license: (ISC)
+About to write to /Users/danielkline/Documents/ok_coders/ok_coders_backend/projects/week2/package.json:
+
+{
+  "name": "week2",
+  "version": "1.0.0",
+  "description": "Day Two Stuff",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielWebDev/ok-coders-backend-week2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielWebDev/ok-coders-backend-week2/issues"
+  },
+  "homepage": "https://github.com/DanielWebDev/ok-coders-backend-week2#readme"
+}
+
+
+Is this ok? (yes)
+daniels-mbp-2:week2 danielkline$ npm install
+daniels-mbp-2:week2 danielkline$ ls
+README.md	arrays.js	example.js	index.js	logCommandLine	node_modules	package.json
+daniels-mbp-2:week2 danielkline$ git commit -m "stuff learned in class"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+	arrays.js
+	example.js
+	index.js
+	logCommandLine
+	package.json
+
+nothing added to commit but untracked files present
+daniels-mbp-2:week2 danielkline$ git add .
+daniels-mbp-2:week2 danielkline$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   arrays.js
+	new file:   example.js
+	new file:   index.js
+	new file:   logCommandLine
+	new file:   package.json
+
+daniels-mbp-2:week2 danielkline$ git commit -m "stuff learned in class"
+[master e1b408f] stuff learned in class
+ 5 files changed, 1092 insertions(+)
+ create mode 100644 arrays.js
+ create mode 100644 example.js
+ create mode 100644 index.js
+ create mode 100644 logCommandLine
+ create mode 100644 package.json
+daniels-mbp-2:week2 danielkline$ git push origin master
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 5.11 KiB | 0 bytes/s, done.
+Total 7 (delta 0), reused 0 (delta 0)
+To https://github.com/DanielWebDev/ok-coders-backend-week2.git
+   6963e4b..e1b408f  master -> master
+daniels-mbp-2:week2 danielkline$
