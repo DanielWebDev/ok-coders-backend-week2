@@ -1,6 +1,7 @@
 // howMany, count are global
 var howMany = 'First';
-var count = 1;
+var count = 1;// change 'count'to 2 will result in a different output
+
 
 function myFirstFunction(num) {
 

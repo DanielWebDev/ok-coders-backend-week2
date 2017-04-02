@@ -1,5 +1,6 @@
 var myFunction = {
 
+	// property name : property value
 	count : 1,
 
 	first : function(num){
@@ -18,8 +19,8 @@ var myFunction = {
 	}
 }
 
-	// use function as variable
-	myFunction.first(myFunction.counter());
-	var result = myFunction.first(myFunction.counter());
+// use function as variable
+myFunction.first(myFunction.counter());
+var result = myFunction.first(myFunction.counter());
 
-	console.log(result);
+console.log(result);

@@ -1,28 +1,29 @@
 // howMany, count are global
-var howMany = 'First';
+var howMany = 'first';
 var count = 1;
 var myFunction = {};
 
-myFunction.first = function(num) {
+myFunction.howMany = function(num) {
 
 	// cannot use 'num' outside of function
 	console.log("this is my " + num + " function");
-	num = 'Second';
+	num = 'second';
 
 	return num;
 }
 
-myFunction.counter = function() {
+myFunction.count = function() {
 	if (count === 1) {
 		count++;
-		return "First";
+		return "first";
 	}
 
-	return "Not First";
+	return "not First";
 }
 
 // use function as variable
-myFunction.first(counter());
-var result = myFirstFunction(counter());
+myFunction.howMany(count());
+var result = myFunction.howMany(myFunction.count());
+myFunction.count()// undefined due to 'num' being a local variable
 
 console.log(result);
