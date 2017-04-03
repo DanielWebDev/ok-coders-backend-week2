@@ -10,68 +10,94 @@
 //	view list
 //	remove from list
 
-var choice;
+var userChoice, x;
+var userList = [];
 
 var myFunction = {
 
 	// property name : property value
 	count : 1,
 
-	first : function(num){
-		console.log("this is my " + num + " function");
-		num = 'Second';
-		return num;			
+	// first : function(num){
+	// 	console.log("this is my " + num + " function");
+	// 	num = 'Second';
+	// 	return num;			
+	// },
+
+	displayContents : function(){
+
+		//console.log('');
+		console.log('Displaying contents of user list ...');
+		console.log('------------------------------------');
+		for (count = 0; count <= userList.length; count++) {
+			console.log('');
+		}
 	},
 
-	displayContents : function(){},
+	addItem : function(){
 
-	addItem : function(){},
+	  	var prompt = require('what content would you like add to the list?');
+	  	prompt.start();// start prompt
+
+	  	prompt.get(['value'], function (err, result) {
+		    // Log the results. 
+		    // console.log('Command-line input received:');
+		    // console.log('  value ' + result.value);
+
+		    count = 0;
+
+		    userList[count] = result.value;
+
+	  });
+
+	},
 
 	deleteItem : function(){},
 
-	displayOptions : function(num){
+	promptUser : function(num){
 
-		console.log('Please select an option ...');
-		console.log('View list - press 1');
-		console.log('Add to list - press 2');
-		console.log('Remove from list - press 3');
+		var result;
 
-		//return prompt('what is your choice?');
+		console.log('\n');
+		console.log('Please select an option and press enter ...');
+		console.log('1 - View list');
+		console.log('2 - Add item to list');
+		console.log('3 - Remove item from list');
 
-		  var prompt = require('prompt');
-		 
-		  prompt.start();// start prompt
-		 
-		  prompt.get(['username', 'email'], function (err, result) {
-		    // 
+	  	var prompt = require('prompt');
+	  	prompt.start();// start prompt
+	 
+	  	prompt.get(['value'], function (err, result) {
 		    // Log the results. 
-		    // 
-		    console.log('Command-line input received:');
-		    console.log('  username: ' + result.username);
-		    console.log('  email: ' + result.email);
-		  });
+		    //console.log('Command-line input received:');
+		    //console.log('  value ' + result.value);
+
+		    userChoice = result.value;
+
+			if (userChoice === 1) {
+				myFunction.displayContents();
+			}
+	  });
 
 	},
 
-	promptUser : function() {
-		
-	},
+	// counter : function() {
+	// 	if (this.count === 1) { 
+	// 		this.count++;
+	// 		return "First";
+	// 	}
 
-	counter : function() {
-		if (this.count === 1) { 
-			this.count++;
-			return "First";
-		}
-
-		return "Not First";
-	}
+	// 	return "Not First";
+	// }
 }
 
-// use function as variable
-//myFunction.first(myFunction.counter());
-//var result = myFunction.first(myFunction.counter());
+//while (userChoice !== 1 || userChoice !== 2 || userChoice !== 3) {
 
-//console.log(result);
+	myFunction.promptUser();
+	//myFunction.displayContents();
 
-myFunction.displayOptions(choice);
-myFunction.promptUser(choice);
+	if (userChoice === 2) myFunction.addItem();
+
+	if (userChoice === x) return;// exit program if user enters 'x'
+
+//}
