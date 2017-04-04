@@ -22,7 +22,7 @@ function counter() {
 }
 
 // use function as variable
-myFirstFunction("First");
+myFirstFunction(counter());
 var result = myFirstFunction(counter());
 
 console.log(result);
