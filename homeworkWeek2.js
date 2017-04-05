@@ -10,27 +10,55 @@
 //	view list
 //	remove from list
 
+var q, result;
 var myArray = ['1','2',3,4,5]
 
-var myFunction = {
+var ToDoList = {
 
 	// property name : property value
-	count : 1,
 
-	displayContents : function(){
+	displayMenu : function() {
+
+		console.log('select 1) Print ToDo, 2) Add ToDo, 3) Complete Todo');
+
+	},
+
+	displayList : function(){
 
 		console.log('\n');
 		console.log('Displaying contents of user list ...');
 		console.log('------------------------------------');
 
-		//var ToDoList = ['one','two','three'];
-
-
-			myArray.forEach(function(value){
-			  console.log(value);
+		myArray.forEach(function(value){
+		  	console.log(value);
 		});
 
 	},
+
+	promptUser : function(){
+
+		var prompt = require('prompt');// path not required as 
+		var result = 0;
+
+		prompt.start();
+
+		prompt.get([{
+		    type: 'integer',
+		    required: true
+
+		  }], function (err, result) {
+
+			  	if (err) {
+			  		console.log('*** an error has occurred ***');
+			  		return;
+			  	}
+
+			  	console.log('result:', result.question);
+		});
+
+	},
+
+	printList : function(){},
 
 	addItem : function(){
 
@@ -38,43 +66,27 @@ var myFunction = {
 
 	},
 
-	removeItem : function(){}
+	deleteItem : function(){},
 
-}
+	displayError : function(){}
 
-//
-// get input
-//
-var prompt = require('prompt');// path not required as 
-var result = 0;
+}// End 'ToDoObject' object declaration
 
-prompt.start();
+	ToDoList.displayMenu();
+	ToDoList.promptUser();
 
-console.log('select 1) Print ToDo, 2) Add ToDo, 3) Complete Todo');
-prompt.get([{
-    type: 'integer',
-    required: true
-  }], function (err, result) {
-  	if (err) {
-  		console.log('*** an error has occurred ***');
-  		return;
-  	}
-  //console.log('Input received:');
-  //console.log(JSON.stringify(result, null, 2));
 
-  	console.log('result:', result.question);
 
-	switch (result.question) {
-		case 1:
-			myFunction.displayContents();
-		case 2:			
-			console.log('add');
-		case 3:
-			console.log('complete');
-		case q:// quit
-			break;
-		default:
-			console.log('a valid seletion was not entered');
-	}
+	// switch (result.question) {
+	// 	case 1:
+	// 		myFunction.displayContents();
+	// 	case 2:			
+	// 		console.log('add');
+	// 	case 3:
+	// 		console.log('complete');
+	// 	case q:// quit
+	// 		break;
+	// 	default:
+	// 		console.log('a valid seletion was not entered');
+	// }
 
-});
