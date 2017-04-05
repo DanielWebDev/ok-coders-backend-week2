@@ -10,12 +10,37 @@
 //	view list
 //	remove from list
 
-var q, result;
-var myArray = ['1','2',3,4,5]
+var q, err = false;
+var myArray = ['1','2',3,4,5];
+var result = {question:0};
+
 
 var ToDoList = {
 
 	// property name : property value
+
+	initFunction : function() {
+
+		ToDoList.promptUser();
+
+	  	if (err) {
+	  		console.log('*** an error has occurred ***');
+	  		return;
+	  	} else {
+			switch (result.question) {
+				case 1:
+					myFunction.displayContents();
+				case 2:			
+					console.log('add');
+				case 3:
+					console.log('complete');
+				case q:// quit
+					break;
+				default:
+					console.log('a valid seletion was not entered');
+			}
+		}
+	},
 
 	displayMenu : function() {
 
@@ -26,7 +51,7 @@ var ToDoList = {
 	displayList : function(){
 
 		console.log('\n');
-		console.log('Displaying contents of user list ...');
+		console.log('Displaying contents ToDo list ...');
 		console.log('------------------------------------');
 
 		myArray.forEach(function(value){
@@ -38,7 +63,7 @@ var ToDoList = {
 	promptUser : function(){
 
 		var prompt = require('prompt');// path not required as 
-		var result = 0;
+		//var result = 0;
 
 		prompt.start();
 
@@ -47,11 +72,6 @@ var ToDoList = {
 		    required: true
 
 		  }], function (err, result) {
-
-			  	if (err) {
-			  		console.log('*** an error has occurred ***');
-			  		return;
-			  	}
 
 			  	console.log('result:', result.question);
 		});
@@ -72,21 +92,5 @@ var ToDoList = {
 
 }// End 'ToDoObject' object declaration
 
-	ToDoList.displayMenu();
-	ToDoList.promptUser();
-
-
-
-	// switch (result.question) {
-	// 	case 1:
-	// 		myFunction.displayContents();
-	// 	case 2:			
-	// 		console.log('add');
-	// 	case 3:
-	// 		console.log('complete');
-	// 	case q:// quit
-	// 		break;
-	// 	default:
-	// 		console.log('a valid seletion was not entered');
-	// }
-
+	ToDoList.initFunction();
+	
