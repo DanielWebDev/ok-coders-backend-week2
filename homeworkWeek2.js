@@ -10,7 +10,7 @@
 //	view list
 //	remove from list
 
-var userList = [];
+var myArray = ['1','2',3,4,5]
 
 var myFunction = {
 
@@ -22,34 +22,59 @@ var myFunction = {
 		console.log('\n');
 		console.log('Displaying contents of user list ...');
 		console.log('------------------------------------');
-		for (count = 0; count <= userList.length; count++) {
-			console.log('');
-		}
+
+		//var ToDoList = ['one','two','three'];
+
+
+			myArray.forEach(function(value){
+			  console.log(value);
+		});
+
 	},
 
-	addItem : function(){},
+	addItem : function(){
+
+		console.log('please enter item to be added');
+
+	},
 
 	removeItem : function(){}
 
 }
 
-// console.log('Select option by adding parameter while invoking program');
-// console.log('view - View list');
-// console.log('add - Add item to list');
-// console.log('remove - Remove item from list');
+//
+// get input
+//
+var prompt = require('prompt');// path not required as 
+var result = 0;
 
-// when invoking this program from the cmd line, type $ node [filename] [name-parameter] as this does not actually prompt user, instead it displays the [name-parameter] with the 'console.log' function
-var userOption = process.argv[2];
+prompt.start();
 
+console.log('select 1) Print ToDo, 2) Add ToDo, 3) Complete Todo');
+prompt.get([{
+    type: 'integer',
+    required: true
+  }], function (err, result) {
+  	if (err) {
+  		console.log('*** an error has occurred ***');
+  		return;
+  	}
+  //console.log('Input received:');
+  //console.log(JSON.stringify(result, null, 2));
 
+  	console.log('result:', result.question);
 
-if (userOption === 'add') {
-	console.log('add');
-} else if (userOption === 'view') {
-	console.log('view');
-	myFunction.displayContents();
-} else if (userOption === 'remove') {
-	console.log('remove');
-} else {
-	return;
-}
+	switch (result.question) {
+		case 1:
+			myFunction.displayContents();
+		case 2:			
+			console.log('add');
+		case 3:
+			console.log('complete');
+		case q:// quit
+			break;
+		default:
+			console.log('a valid seletion was not entered');
+	}
+
+});
