@@ -12,16 +12,15 @@
 
 var q, err = false;
 var myArray = ['1','2',3,4,5];
-var result = {question:0};
-
+var result = 0;
 
 var ToDoList = {
 
 	// property name : property value
 
-	initFunction : function() {
+	initFunction : function(result) {
 
-		ToDoList.promptUser();
+		this.promptUser(result);
 
 	  	if (err) {
 	  		console.log('*** an error has occurred ***');
@@ -40,6 +39,26 @@ var ToDoList = {
 					console.log('a valid seletion was not entered');
 			}
 		}
+		//console.log('in initFunction, result:', result.question);
+
+	},
+
+	promptUser : function(result){
+
+		var prompt = require('prompt');// path not required as 
+
+		prompt.start();
+
+		prompt.get([{
+			name: 'question',
+		    type: 'integer',
+		    required: true
+
+		  }], function (err, result) {
+
+			  	console.log('in promptUser, result:', result.question);
+		});
+
 	},
 
 	displayMenu : function() {
@@ -60,24 +79,6 @@ var ToDoList = {
 
 	},
 
-	promptUser : function(){
-
-		var prompt = require('prompt');// path not required as 
-		//var result = 0;
-
-		prompt.start();
-
-		prompt.get([{
-		    type: 'integer',
-		    required: true
-
-		  }], function (err, result) {
-
-			  	console.log('result:', result.question);
-		});
-
-	},
-
 	printList : function(){},
 
 	addItem : function(){
@@ -92,5 +93,5 @@ var ToDoList = {
 
 }// End 'ToDoObject' object declaration
 
-	ToDoList.initFunction();
+	ToDoList.initFunction(result);
 	

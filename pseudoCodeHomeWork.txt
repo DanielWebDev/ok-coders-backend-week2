@@ -1,0 +1,12 @@
+var ToDo = array
+
+object = {
+	display menu
+	prompt user
+	print list
+	add item to list
+	delete item from list
+	display error
+}
+
+initProcess
